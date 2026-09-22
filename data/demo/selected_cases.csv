@@ -1,0 +1,7 @@
+case,fault,root_cause_service,n_metrics,n_logs,n_traces,duration_minutes,has_root_cause_file
+re2ss_catalogue_cpu_2,cpu,catalogue,75,74548,0,24.0,False
+re2ss_catalogue_delay_3,delay,catalogue,76,78812,0,24.0,False
+re2ss_orders_disk_1,disk,orders,79,70374,0,24.0,False
+re2ss_user_loss_1,loss,user,79,53507,0,24.0,False
+re2ss_user_mem_3,mem,user,74,85809,0,24.0,False
+re2ss_user_socket_1,socket,user,82,84250,0,24.0,False

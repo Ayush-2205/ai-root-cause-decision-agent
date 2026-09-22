@@ -9,10 +9,14 @@ __pycache__/
 .env
 
 # Data (large files - we'll manage this properly in Phase 2)
+# Full/reproducible data - regenerated via scripts, not committed
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Small demo subset IS committed - needed for the deployed API
+!data/demo/
 
 # OS/editor junk
 .DS_Store

@@ -1,1 +1,11 @@
 pandas
+huggingface_hub
+pyarrow
+matplotlib
+groq
+python-dotenv
+sqlalchemy
+streamlit
+fastapi
+uvicorn
+requests
