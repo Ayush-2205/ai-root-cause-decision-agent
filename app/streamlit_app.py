@@ -6,10 +6,13 @@ FastAPI backend instead of the pipeline functions directly.
 import requests
 import streamlit as st
 
-import os
-API_BASE = os.environ.get("API_BASE", "http://127.0.0.1:8000")
 
 st.set_page_config(page_title="AI Root Cause and Decision Agent", layout="wide")
+
+import os
+import streamlit as st
+
+API_BASE = st.secrets.get("API_BASE", os.environ.get("API_BASE", "http://127.0.0.1:8000"))
 
 st.title("AI Root Cause and Decision Agent")
 st.caption("Evidence-grounded root cause analysis for microservice incidents (Sock Shop / RCAEval subset)")
